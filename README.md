@@ -58,3 +58,25 @@
 - Gradle 
 
     - a build/compile management system 
+
+
+## Android terminology 
+
+
+- Activity: A single screen of UI in app
+    1- The fundemental unit of GUI
+
+- View: Visible onscreen items.
+
+ - Widget: Gui control such as a button 
+
+ - layout: invisible container to position/size widgets
+
+ - event: action that occurs when user interacts with widgets
+
+    1- Example: clicks, typing, timer expiring, scrolling, recording,...
+
+
+- action bar: top menu of common actions 
+
+- notification area: top system menu 
