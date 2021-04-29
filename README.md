@@ -32,3 +32,29 @@
 - Android OS provides libraries for many system features like contacts, phone dialing, notification, , 2D/3D graphics, databases access, security/encryption, camera, audio, input/output,...
 
 - Android code os compiled into a special dalvik binary format.
+
+
+## Softwares 
+
+1- IDE. Android studio. 
+
+
+## Project Structures
+
+- AndroidManifest.xml 
+    - Overall project config and settings 
+
+- src/...
+
+    - source code for your kotlin/java classes
+
+
+- res/... = resource files (mnay are xml)
+    - drawables/ = imwges
+    - layout/ = descriptions of GUI layout
+    - strings/ = localization data
+    - styles/ = general appearance stylin
+
+- Gradle 
+
+    - a build/compile management system 
