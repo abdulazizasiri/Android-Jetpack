@@ -14,18 +14,25 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        var leftBtn: Button = findViewById(R.id.left)
+        var rightBtn: Button = findViewById(R.id.right)
 
-//        var random = Random()
-//        print(random.ints())
-//        var ele = findViewById<TextView>(R.id.id)
-        var bun: Button = findViewById(R.id.left)
-        bun.setOnClickListener{
-            print("Hello")
-//            var num = ele.text.toString().toInt()
-//            num+=1
-//            ele.text = num.toString()
+
+        leftBtn.setOnClickListener{
+
+            decrement(leftBtn, rightBtn)
         }
 
 
+    }
+
+    fun decrement(leftBtn: Button, rightBtn:Button) {
+        var num = leftBtn.text.toString().toInt()
+        if (num == 0) {
+            return
+        }
+        num--;
+        leftBtn.text = "-:${num}"
+        rightBtn.text = "+:${num}"
     }
 }
