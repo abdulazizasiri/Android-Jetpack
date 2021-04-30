@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="280dp"
-        android:text="-: 0"
+        android:text="-"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -53,7 +53,7 @@
         android:layout_marginLeft="296dp"
         android:layout_marginTop="280dp"
         android:rotationX="0"
-        android:text="+: 0"
+        android:text="+"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -80,5 +80,15 @@
         android:text="points: 0"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
