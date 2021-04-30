@@ -80,3 +80,6 @@
 - action bar: top menu of common actions 
 
 - notification area: top system menu 
+
+
+## Layout 
