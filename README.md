@@ -140,7 +140,7 @@ Example: (case-sensitive)
 ### Types of Layouts 
 
 
-1- LinearLayout.
+#### - LinearLayout.
     - Lays out widgets/views in a single line. 
 
     - orientation of horizontal or vertical 
@@ -173,4 +173,8 @@ used for poistioning a specific items inside a layout.
 3- border: outside padding, a line around edge of widget
 
 4- margin: invisible seperation from neighboring widgets. 
+
+#### - GridLayout
+
+lays out widgets/views in lines of rows and columns. 
 
