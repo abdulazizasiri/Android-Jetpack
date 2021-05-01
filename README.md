@@ -124,5 +124,38 @@ How does the programmer specify where each component appears, how big each compo
     2- various layouts classes are also viewGroups
     3- widgets can be added toa  ViewGroup, which will then manage that widget's position/size behaveor 
 
-    
+
+
+### XML 
+
+A language for describing hierarchical text data. 
+
+- Uses tags that consist of elements and attributes. Tags cab be nested. 
+
+- Some tags are opened and closde, others self-close.
+
+
+Example: (case-sensitive)
+
+### Types of Layouts 
+
+
+1- LinearLayout.
+    - Lays out widgets/views in a single line. 
+
+    - orientation of horizontal or vertical 
+
+    - items do not wrap if they reach edge of screen. 
+
+- Important properties.
+
+1- orientation: vertical/horizontal 
+
+2- gravity: "center|right|left|bottom|top"
+
+used for poistioning all items inside a specific layout. 
+
+3- laout_gravity: "center|right|left|bottom|top"
+
+used for poistioning a specific items inside a layout. 
 

@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
         submit.setOnClickListener{
             checkValue(current)
         }
-
-
     }
     @SuppressLint("ResourceAsColor")
     fun checkValue(current: TextView){
