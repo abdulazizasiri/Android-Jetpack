@@ -159,3 +159,18 @@ used for poistioning all items inside a specific layout.
 
 used for poistioning a specific items inside a layout. 
 
+4- Weight: relative element sizes by integers. 
+    - widget with weight k fets 
+
+
+
+5- Widget box 
+
+1- Content: Size of widget itself
+
+2- padding: artifical increase to widget size outsize of content
+
+3- border: outside padding, a line around edge of widget
+
+4- margin: invisible seperation from neighboring widgets. 
+
