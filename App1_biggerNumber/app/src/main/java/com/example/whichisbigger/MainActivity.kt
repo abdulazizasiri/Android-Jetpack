@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import java.util.*
@@ -44,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     fun checkValue(current: TextView){
         var currentValue = 21 /// Vurrently. I am bored, I want to move on.
         if (current.text.toString().toInt() == currentValue) {
-            findViewById<ConstraintLayout>(R.id.bg).setBackgroundColor(R.color.teal_700)
+            Toast.makeText(this, "Win", Toast.LENGTH_LONG).show()
         }
     }
     fun changeValue(curr: TextView, isDec: Boolean) {
