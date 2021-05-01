@@ -82,4 +82,47 @@
 - notification area: top system menu 
 
 
+## Aside 
+
+### Displaying Toast 
+
+- Toast: a pop-up message that appears for a short time. 
+
+- useful for displaying short updates in response to events. 
+
+- should not be reliaed upon extensively for important info. 
+
+- length can also be Toast,LENGTH_LONG 
+
 ## Layout 
+
+How does the programmer specify where each component appears, how big each componnet should be, etc? 
+
+###  Absoulte positioning (C++, C#, others)
+
+    - Programmers specify exactly where each pixel should be.
+   
+### Layout managers (java, kotlin, Android, CSS flex and more, ios layouts) 
+
+-  Objects that decide where ti position each component basd on some general rules or criteria. 
+
+
+- "put these four buttons into a 2x2 gridand put these text boxes in a horizontal flow in the south part of the app.
+    
+- More flexible and general; works better with a variety of devices. 
+
+### ViewGroup as layout 
+
+- ViewGroup superclass represents containers of views. 
+    1- layouts are described in XML and mirrored in java/kotlin code 
+    2- Android provides several pre-existing layout managers; you can define your own custom layout if needed.
+
+
+- In kotlin/java code and XML 
+
+    1- an activity is a viewGroup 
+    2- various layouts classes are also viewGroups
+    3- widgets can be added toa  ViewGroup, which will then manage that widget's position/size behaveor 
+
+    
+
